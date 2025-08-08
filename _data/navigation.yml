@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Reviews"
+    url: "/reviews/"
+  - title: "Themes"
+    url: "/themes/"
+  - title: "Bibliography"
+    url: "/bibliography/"
+  - title: "About"
+    url: "/about/"
+  - title: "Contact"
+    url: "/contact/"
