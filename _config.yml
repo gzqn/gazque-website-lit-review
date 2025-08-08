@@ -6,8 +6,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-archives
-  - jekyll-toc
   - jekyll-analytics
 defaults:
   - scope:
