@@ -1,7 +1,6 @@
 title: Academic Reviews
 
 plugins:
-  -plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
