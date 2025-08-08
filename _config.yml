@@ -6,7 +6,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-analytics
 defaults:
   - scope:
       path: ""
