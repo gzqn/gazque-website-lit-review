@@ -10,6 +10,11 @@ plugins:
   - jekyll-archives
   - jekyll-toc
   - jekyll-analytics
+  - jekyll-scholar
+  - jekyll-redirect-from
+  - jekyll-multiple-languages-plugin
+  - jekyll-assets
+  - jekyll-remote-theme
 defaults:
   - scope:
       path: ""
