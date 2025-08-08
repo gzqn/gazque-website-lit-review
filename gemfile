@@ -1,8 +1,9 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.3"
-gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll" , group: :jekyll_plugins
 
+group :jekyll_plugins do
 # Plugins
 gem "jekyll-feed"
 gem "jekyll-seo-tag"
@@ -17,3 +18,4 @@ gem "jekyll-redirect-from"
 gem "jekyll-multiple-languages-plugin"
 gem "jekyll-assets"
 gem "jekyll-remote-theme"
+end
