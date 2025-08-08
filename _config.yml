@@ -1,5 +1,58 @@
-title: Academic Reviews
+# Site settings
+title: "Gazque Literature Reviews"
+name: "Gazque Project"
+description: "Academic Literature Reviews on Communication, Culture, Identity & More"
+url: "https://yourdomain.com"  # Change to your GitHub Pages URL or custom domain
+baseurl: ""  # Leave empty if using GitHub Pages without subdirectory
 
+# Theme
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "air"  # Options: default, air, contrast, dark, mint, neon, etc.
+
+# Author info (used in posts and sidebar)
+author:
+  name: "Nicholas Gribble"
+  avatar: "/assets/images/avatar.png"  # Optional
+  bio: "Researcher | Cultural Analyst | Psychology of Communication"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:your@email.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/yourusername"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/yourhandle"
+
+# Logo for header (optional)
+logo: "/assets/images/logo.png"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Includes folder
+include: ["_includes"]
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+# Plugins (whitelisted for GitHub Pages or supported via remote theme)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -11,14 +64,16 @@ plugins:
   - jekyll-analytics
   - jekyll-scholar
   - jekyll-redirect-from
-  - jekyll-multiple-languages-plugin
   - jekyll-assets
   - jekyll-remote-theme
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-include: ["_includes"]
-markdown: kramdown
+
+# Comment out this if you're not using multilingual content
+#  - jekyll-multiple-languages-plugin
+
+# Analytics (Google Analytics 4)
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-XXXXXXXXXX"  # Replace with your GA4 Measurement ID
+    anonymize_ip: true
+
