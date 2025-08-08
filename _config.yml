@@ -36,6 +36,14 @@ highlighter: rouge
 paginate: 5
 paginate_path: "/page:num/"
 
+header_pages:
+  - index.md
+  - reviews.md
+  - themes.md
+  - bibliography.md
+  - about.md
+  - contact.md
+
 # Includes folder
 include: ["_includes"]
 
