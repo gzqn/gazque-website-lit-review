@@ -1,13 +1,16 @@
 main:
+main:
   - title: "Home"
     url: "/"
-  - title: "Reviews"
-    url: "/reviews/"
-  - title: "Themes"
-    url: "/themes/"
-  - title: "Bibliography"
-    url: "/bibliography/"
+  - title: "Topics"
+    children:
+      - title: "Gender"
+        url: "/categories/gender"
+      - title: "Communication"
+        url: "/categories/communication"
+      - title: "Psychology"
+        url: "/categories/psychology"
   - title: "About"
     url: "/about/"
-  - title: "Contact"
-    url: "/contact/"
+
+ 
