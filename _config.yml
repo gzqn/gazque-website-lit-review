@@ -20,4 +20,5 @@ defaults:
       type: "posts"
     values:
       layout: single
+include: ["_includes"]
 markdown: kramdown
