@@ -12,7 +12,7 @@ minimal_mistakes_skin: "air"  # Options: default, air, contrast, dark, mint, neo
 # Author info (used in posts and sidebar)
 author:
   name: "Nicholas Gribble"
-  avatar: "/assets/images/avatar.png"  # Optional
+  # avatar: "/assets/images/avatar.png"  # Optional
   bio: "Researcher | Cultural Analyst | Psychology of Communication"
   links:
     - label: "Email"
@@ -26,7 +26,7 @@ author:
       url: "https://twitter.com/yourhandle"
 
 # Logo for header (optional)
-logo: "/assets/images/logo.png"
+# logo: "/assets/images/logo.png"
 
 # Build settings
 markdown: kramdown
@@ -79,9 +79,9 @@ plugins:
 #  - jekyll-multiple-languages-plugin
 
 # Analytics (Google Analytics 4)
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-XXXXXXXXXX"  # Replace with your GA4 Measurement ID
-    anonymize_ip: true
+#analytics:
+ # provider: "google-gtag"
+ # google:
+   # tracking_id: "G-XXXXXXXXXX"  # Replace with your GA4 Measurement ID
+  #  anonymize_ip: true
 
