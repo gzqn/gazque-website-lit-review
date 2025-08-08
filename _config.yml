@@ -1,11 +1,15 @@
 title: Academic Reviews
-remote_theme: mmistakes/minimal-mistakes
+
 plugins:
+  -plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-archives
+  - jekyll-toc
+  - jekyll-analytics
 defaults:
   - scope:
       path: ""
